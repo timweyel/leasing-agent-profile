@@ -31,10 +31,41 @@ button {
   padding: 5px 0;
 }
 
+.availability-row {
+  margin-bottom: 10px;
+}
+
 .green-color {
   color:green;
   padding-right: 3px;
   }
+
+.progress{
+  border-radius: 10px;
+  height: 7px;
+}
+
+.progress-bar-row{
+  flex-wrap: nowrap;
+}
+
+.progress-label-left {
+  float: left;
+  margin-right: 1em;
+  font-size: 10px;
+  width: 10px
+}
+
+.progress-label-right {
+  float: right;
+  margin-left: 1em;
+  font-size: 10px
+}
+
+.level-labels {
+  display: flex;
+  justify-content: space-between;
+}
 
 .sort-down {
   padding-left: 3px;
