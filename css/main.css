@@ -4,3 +4,31 @@ body{
 	background:#f4f4f4;
 }
 
+header{
+  color:#f4f4f4;
+  font-family: "Open Sans";
+}
+
+.header-name{
+  padding-top: 30px;
+  font-size: 14px;
+}
+
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  color:#f4f4f4;
+  border: solid 1px;
+}
+
+.availability{
+  font-size: 10px;
+  /* border: #f4f4f4 1px solid; */
+  /* padding: 5px; */
+}
+
+.green-color {
+  color:green;
+  }
