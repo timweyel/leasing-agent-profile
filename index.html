@@ -130,18 +130,13 @@
         '</div>'
       ].join('');
 
-      $('[data-toggle="popover"]').popover({
+      $('#popoverContent').popover({
         container: 'body',
         placement: 'bottom',
         html: true,
+        trigger: 'focus',
         content: popoverContent
       });
-
-      $(".popover-dismiss").popover(
-        {
-          trigger: "focus"
-        }
-      );
 
     });
 
