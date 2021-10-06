@@ -20,7 +20,7 @@ button {
 
 .green-color {
   color:green;
-  }
+}
 
 .progress {
   height: 10px;
@@ -37,11 +37,33 @@ button {
   border-bottom-style: dashed;
   border-width: 1px;
   border-color: rgb(220, 220, 220);
- }
+}
 
- .border-dashed-right{
+.border-dashed-right{
   border-right-style: dashed;
   border-width: 1px;
   border-color: rgb(220, 220, 220);
- }
+}
 
+.progresses {
+display: flex;
+align-items: center
+}
+
+.line {
+  width: 120px;
+  height: 6px;
+  background: #63d19e
+}
+
+.steps {
+  display: flex;
+  background-color: #63d19e;
+  color: #fff;
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%
+}

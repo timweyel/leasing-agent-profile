@@ -21,7 +21,7 @@
         <div class="bg-image" style="
           background-image: url('/assets/profile-bg.jpg');
           ">
-          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+          <div class="mask" style="background-color: rgba(4, 7, 34, 0.705);">
             <div class="row">
               <div class="col-4">
                 <img src="assets/profile_user.jpg" class="img-fluid" alt="profile picture" />
@@ -80,7 +80,7 @@
         <div class="point-number">
           <div>
             <div id="popoverContent" class="hide">
-              <a href=# class="fs-3 text-decoration-none"
+              <a href=# class="fs-3 text-decoration-none fw-bolder"
                 data-html="true" 
                 data-toggle="popover" 
                 data-trigger="focus" 
@@ -100,7 +100,7 @@
 <!-- placeholder for future popover? -->
 
             <div id="" class="hide">
-              <a href=# class="fs-3 text-decoration-none"
+              <a href=# class="fs-3 text-decoration-none fw-bolder"
                 data-html="true" 
                 data-toggle="popover" 
                 data-trigger="focus" 
@@ -118,40 +118,46 @@
 
 <!-- badges section -->
 
-  <div class="container">
+  <div class="container mb-5">
     <div class="row pt-4">
       <div class="col">
         <h4>Badges</h4>
       </div>
       <div class="col text-end">
-        <a href=# ><h5>Show Details</h5></a>
+        <a href=# ><h6>Show Details</h6></a>
       </div>
     </div>
     <div>
-      <div class="border">
-        <h5>Leads & Follow-Ups</h5>
-        <div class="progress col-6 px-0 rounded-3">
-          <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="border rounded-2 p-3 mb-2">
+        <h6 class="fw-bold">Leads & Follow-Ups</h6>
+        <div class="progress px-0 rounded-3">
+          <div class="progress-bar" role="progressbar" style="width: 48%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
-        <p>48 left to Bronze</p>
+        <!-- <div class="container d-flex justify-content-center align-items-center">
+          <div class="progresses">
+              <div class="steps"> <span><i class="fas fa-award"></i></span> </div> <span class="line"></span>
+              <div class="steps"> <span><i class="fas fa-award"></i></span> </div> <span class="line"></span>
+              <div class="steps"> <span class="font-weight-bold">3</span> </div>
+          </div>
+      </div> -->
+        <p class="fs-7"><span class="fw-bold">48</span><span class="text-muted"> left to Bronze!</span>
+    </div>
+    <div>
+      <div class="border rounded-2 p-3 pt-3 mb-2">
+        <h6 class="fw-bold">Appointments & Showings</h6>
+        <div class="progress px-0 rounded-3">
+          <div class="progress-bar" role="progressbar" style="width: 78%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <p class="fs-7"><span class="fw-bold">7</span><span class="text-muted"> left to Gold!</span>
       </div>
     </div>
     <div>
-      <div class="border">
-        <h5>Appointments & Showings</h5>
-        <div class="progress col-6 px-0 rounded-3">
-          <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="border rounded-2 p-3 pt-3">
+        <h6 class="fw-bold">Move-ins & Renewals</h6>
+        <div class="progress px-0 rounded-3">
+          <div class="progress-bar" role="progressbar" style="width: 68%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
-        <p>7 left to Gold!</p>
-      </div>
-    </div>
-    <div>
-      <div class="border">
-        <h5>Move-ins & Renewals</h5>
-        <div class="progress col-6 px-0 rounded-3">
-          <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-        <p>32 left to Silver!</p>
+        <p class="fs-7"><span class="fw-bold">32</span><span class="text-muted"> left to Silver!</span>
       </div>
     </div>
   </div>
