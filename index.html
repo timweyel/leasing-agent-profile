@@ -78,7 +78,17 @@
       </div>
       <div class="col">
         <div class="point-number">
-          400
+          <div>
+            <div id="popoverContent" class="hide">
+              <a href=# 
+                data-html="true" 
+                data-toggle="popover" 
+                data-trigger="focus" 
+                data-placement="bottom"
+                data-content=>400
+              </a>
+            </div>
+          </div>
         </div>
         <div class="points-month">
           Points in April
@@ -94,9 +104,49 @@
       </div>
     </div>
   </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
   crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function(){
+
+      let popoverContent=[
+        '<div class="container">',
+            '<div class="row">',
+              '<div class="col">',
+                'asdf',
+              '</div>',
+              '<div class="col">',
+                'asdf',
+              '</div>',
+              '<div class="col">',
+                'asdf',
+              '</div>',
+            '</div>',
+        '</div>'
+      ].join('');
+
+      $('[data-toggle="popover"]').popover({
+        container: 'body',
+        placement: 'bottom',
+        html: true,
+        content: popoverContent
+      });
+
+      $(".popover-dismiss").popover(
+        {
+          trigger: "focus"
+        }
+      );
+
+    });
+
+
+    </script>
+
 </body>
 </html>
