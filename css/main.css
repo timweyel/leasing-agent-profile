@@ -32,3 +32,16 @@ button {
   border-radius: 50%;
 	background: rgba(235, 235, 235, 1.5);
 }
+
+.border-dashed-bottom{
+  border-bottom-style: dashed;
+  border-width: 1px;
+  border-color: rgb(220, 220, 220);
+ }
+
+ .border-dashed-right{
+  border-right-style: dashed;
+  border-width: 1px;
+  border-color: rgb(220, 220, 220);
+ }
+
