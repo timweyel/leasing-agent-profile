@@ -84,8 +84,7 @@
                 data-html="true" 
                 data-toggle="popover" 
                 data-trigger="focus" 
-                data-placement="bottom"
-                data-content=>400
+                data-placement="bottom">400
               </a>
             </div>
           </div>
@@ -114,32 +113,57 @@
   <script>
     $(document).ready(function(){
 
-      let popoverContent=[
-        '<div class="container">',
-          '<div class="row fw-bold">',
-            '<div class="col text-start">',
-              'Point Summary',
-            '</div>',
-            '<div class="col text-end">',
-              'Points',
-            '</div>',
-          '</div>',
-          '<div class="row">',
-            '15',
-          '</div>',
-        '</div>'
-      ].join('');
+    const bsPopover = new bootstrap.Popover(document.querySelector('#popoverContent'),{
+      placement: 'bottom',
+      trigger: 'focus',
+      html: true
+    })
 
-      $('#popoverContent').popover({
-        container: 'body',
-        placement: 'bottom',
-        html: true,
-        trigger: 'focus',
-        content: popoverContent
-      });
-
-    });
-
+    bsPopover._config.content = `
+      <div class="container">
+        <div class="row fw-bold py-2">
+          <div class="col-auto text-start">
+            Point Summary
+          </div>
+          <div class="col text-end">
+            Points
+          </div>
+        </div>
+        <div class="row py-2">
+          <div class="col-auto text-start">
+            15 New Leads / Prospects
+          </div>
+          <div class="col text-end">
+            75
+          </div>
+        </div>
+        <div class="row py-2">
+          <div class="col-auto text-start">
+            1 Convert Leads to Lease
+          </div>
+          <div class="col text-end">
+            20
+          </div>
+        </div>
+        <div class="row py-2">
+          <div class="col-auto text-start">
+            8 Follow-ups
+          </div>
+          <div class="col text-end">
+            16
+          </div>
+        </div>
+        <div class="row py-2">
+          <div class="col-auto text-start">
+            4 Unit Shows
+          </div>
+          <div class="col text-end">
+            04
+          </div>
+        </div>
+      </div>
+    `;
+  });
 
     </script>
 
