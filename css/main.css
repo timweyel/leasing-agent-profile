@@ -26,6 +26,9 @@ button {
   height: 10px;
 }
 
-/* .popover-content {
-  max-width: 100%;
-} */
+.circle {
+  width: 70px;
+	height: 70px;
+  border-radius: 50%;
+	background: rgba(235, 235, 235, 1.5);
+}
