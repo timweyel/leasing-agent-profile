@@ -81,7 +81,7 @@ button {
   border-width: 15px 15px 0 0;
   border-color: gold transparent transparent transparent;
   z-index: 1;
-  top: 22px;
+  top: 20px;
   left: 2px
 }
 
@@ -92,7 +92,7 @@ button {
   border-width: 0 15px 15px 0;
   border-color: transparent gold transparent transparent;
   z-index: 2;
-  top: 22px;
+  top: 20px;
   left: 3px;
 }
 
@@ -113,7 +113,7 @@ button {
   border-width: 15px 15px 0 0;
   border-color: silver transparent transparent transparent;
   z-index: 1;
-  top: 22px;
+  top: 20px;
   left: 2px
 }
 
@@ -124,7 +124,7 @@ button {
   border-width: 0 15px 15px 0;
   border-color: transparent silver transparent transparent;
   z-index: 2;
-  top: 22px;
+  top: 20px;
   left: 3px;
 }
 
@@ -145,7 +145,7 @@ button {
   border-width: 15px 15px 0 0;
   border-color: rgb(155, 97, 42) transparent transparent transparent;
   z-index: 1;
-  top: 22px;
+  top: 20px;
   left: 2px
 }
 
@@ -156,7 +156,7 @@ button {
   border-width: 0 15px 15px 0;
   border-color: transparent rgb(155, 97, 42) transparent transparent;
   z-index: 2;
-  top: 22px;
+  top: 20px;
   left: 3px;
 }
 
