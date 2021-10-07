@@ -45,33 +45,6 @@ button {
   border-color: rgb(220, 220, 220);
 }
 
-.circle-bronze {
-  width: 70px;
-	height: 70px;
-  border: 5px;
-  border-radius: 50%;
-  border-color: rgb(138, 78, 0);
-
-  background: rgb(255, 255, 255);
-
-}
-
-.circle-silver {
-  width: 70px;
-	height: 70px;
-  border-radius: 50%;
-  border-color: rgb(205, 215, 228);
-	background: rgb(255, 255, 255);
-}
-
-.circle-gold {
-  width: 70px;
-	height: 70px;
-  border-radius: 50%;
-  border-color: rgb(255, 204, 94);
-	background: rgb(255, 255, 255);
-}
-
 .rank {
   font-size: 12px;
   background-color: rgb(224, 223, 223);
@@ -80,3 +53,48 @@ button {
 .fw-600 {
   font-weight: 600;
 }
+
+.award-container {
+  position: relative;
+}
+
+.award-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.gold-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: gold;
+}
+
+.gold-triangle-left {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 17px 17px 0 0;
+  border-color: gold transparent transparent transparent;
+  z-index: 1;
+  top: 22px;
+  left: 1px
+}
+
+.gold-triangle-right {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 17px 17px 0;
+  border-color: transparent gold transparent transparent;
+  z-index: 2;
+  top: 22px;
+  left: 2px;
+}
+
+.top-position{
+  z-index: 99;
+}
+
+/* fas fa-award fa-2x */
