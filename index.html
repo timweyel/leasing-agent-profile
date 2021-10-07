@@ -15,6 +15,7 @@
   <title>Leasing Agent Profile</title>
 </head>
 <body>
+  <!-- Header section -->
   <header>
     <div class="container">
       <div class="row ">
@@ -25,7 +26,9 @@
           <div style="background-color: rgba(4, 7, 34, 0.705);">
             <div class="row">
               <div class="col-4">
-                <img src="assets/profile_user.jpg" class="img-fluid rounded-circle ms-2 mt-3" alt="profile picture" />
+                <img src="assets/profile_user.jpg" class="top-position img-fluid rounded-circle ms-2 mt-3" alt="profile picture" />
+                <!-- <div id="burst-8" class="under-profile-pic">  
+                </div> -->
               </div>
               <div class="col-8">
                 <h1 class="pt-3 fs-4">JOHN SMITH</h1>
@@ -65,7 +68,9 @@
     </div>
   </header>
 
-  <div class="container">
+<!-- Stats Section-->
+  
+<div class="container">
     <div class="row py-3 border-dashed-bottom text-center">
       <div class="col border-dashed-right ">
         <div class="rank-number fs-3 fw-bolder">
@@ -115,7 +120,7 @@
     </div>
   </div>
 
-<!-- badges section -->
+<!-- Badges Section -->
 
   <div class="container mb-4">
     <div class="row mt-4">
@@ -127,6 +132,8 @@
       </div>
     </div>
     <div>
+
+      <!-- Leads & Follow-Ups-->
 
       <div class="border rounded-2 p-3 mb-2">
         <h6 class="fw-bold">Leads & Follow-Ups</h6>
@@ -149,6 +156,9 @@
           <div class="progress-bar" role="progressbar" style="width: 48%; float: left;"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         <p class="fs-7"><span class="fw-bold">48</span><span class="text-muted"> left to Bronze!</span>
+
+        <!-- collapsible section -->
+
         <div class="collapse multi-collapse leads">
           <div class="row">
             <div class="col">
@@ -179,6 +189,9 @@
         </div>
     </div>
     <div>
+
+<!-- Appointments & Showings -->
+
       <div class="border rounded-2 p-3 mb-2">
         <h6 class="fw-bold pb-5">Appointments & Showings</h6>
         <div style="position: relative; top: -5px; left: 65%;" class="top-position">
@@ -206,6 +219,9 @@
           <div class="progress-bar" role="progressbar" style="width: 87%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         <p class="fs-7"><span class="fw-bold">7</span><span class="text-muted"> left to Gold!</span>
+
+        <!-- collapsible section -->
+
           <div class="collapse multi-collapse leads">
             <div class="row">
               <div class="col">
@@ -230,6 +246,9 @@
         </div>
     </div>
     <div>
+
+<!-- Move-ins & Renewals -->
+
       <div class="border rounded-2 p-3 pt-3">
         <h6 class="fw-bold">Move-ins & Renewals</h6>
         <div style="position: relative; top: 35px; left: 65%;" class="top-position">
@@ -253,6 +272,9 @@
           <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         <p class="fs-6"><span class="fw-bold">32</span><span class="text-muted"> left to Silver!</span>
+
+        <!-- collapsible section -->
+
           <div class="collapse multi-collapse leads">
             <div class="row">
               <div class="col">
@@ -361,6 +383,8 @@
       trigger: 'focus',
       html: true
     })
+
+// Popover content
 
     bsPopover._config.content = `
       <div class="container">

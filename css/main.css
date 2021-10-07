@@ -196,8 +196,38 @@ button {
   border-color: rgb(148, 72, 2);
   border-width: 2px;
 }
+
+#burst-8 {
+  background: rgb(217, 84, 79);
+  width: 80px;
+  height: 80px;
+  position: relative;
+  text-align: center;
+  transform: rotate(20deg);
+  border:rgb(217, 84, 79);
+  border-radius: 5px;
+}
+#burst-8:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 80px;
+  background: rgb(217, 84, 79);
+  transform: rotate(135deg);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0 15px 15px 0;
+  border-color: transparent rgb(217, 84, 79) transparent transparent;
+}
+
 .top-position{
   z-index: 99;
+}
+
+.under-profile-pic{
+  z-index: 98;
 }
 
 
