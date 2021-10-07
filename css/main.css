@@ -69,32 +69,127 @@ button {
   height: 20px;
   border-radius: 50%;
   background: gold;
+  border-style: solid;
+  border-color: #F4F4F4;
+  border-width: 2px;
 }
 
 .gold-triangle-left {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 17px 17px 0 0;
+  border-width: 15px 15px 0 0;
   border-color: gold transparent transparent transparent;
   z-index: 1;
   top: 22px;
-  left: 1px
+  left: 2px
 }
 
 .gold-triangle-right {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 17px 17px 0;
+  border-width: 0 15px 15px 0;
   border-color: transparent gold transparent transparent;
   z-index: 2;
   top: 22px;
-  left: 2px;
+  left: 3px;
 }
 
+.silver-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: silver;
+  border-style: solid;
+  border-color: #F4F4F4;
+  border-width: 2px;
+}
+
+.silver-triangle-left {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 15px 0 0;
+  border-color: silver transparent transparent transparent;
+  z-index: 1;
+  top: 22px;
+  left: 2px
+}
+
+.silver-triangle-right {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 15px 15px 0;
+  border-color: transparent silver transparent transparent;
+  z-index: 2;
+  top: 22px;
+  left: 3px;
+}
+
+.bronze-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(155, 97, 42);
+  border-style: solid;
+  border-color: #F4F4F4;
+  border-width: 2px;
+}
+
+.bronze-triangle-left {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 15px 0 0;
+  border-color: rgb(155, 97, 42) transparent transparent transparent;
+  z-index: 1;
+  top: 22px;
+  left: 2px
+}
+
+.bronze-triangle-right {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 15px 15px 0;
+  border-color: transparent rgb(155, 97, 42) transparent transparent;
+  z-index: 2;
+  top: 22px;
+  left: 3px;
+}
+
+.empty-circle-gold {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #F4F4F4;
+  border-style: solid;
+  border-color: gold;
+  border-width: 2px;
+}
+
+.empty-circle-silver {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #F4F4F4;
+  border-style: solid;
+  border-color: silver;
+  border-width: 2px;
+}
+
+.empty-circle-bronze {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #F4F4F4;
+  border-style: solid;
+  border-color: rgb(148, 72, 2);
+  border-width: 2px;
+}
 .top-position{
   z-index: 99;
 }
 
-/* fas fa-award fa-2x */
