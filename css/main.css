@@ -18,6 +18,13 @@ button {
   color:#f4f4f4;
 }
 
+#img.source-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .green-color {
   color:green;
 }
@@ -192,4 +199,6 @@ button {
 .top-position{
   z-index: 99;
 }
+
+
 
