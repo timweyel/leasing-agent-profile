@@ -72,3 +72,12 @@ button {
   border-color: rgb(255, 204, 94);
 	background: rgb(255, 255, 255);
 }
+
+.rank {
+  font-size: 12px;
+  background-color: rgb(224, 223, 223);
+}
+
+.ranking-name {
+  font-weight: 600;
+}
