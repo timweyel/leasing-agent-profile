@@ -18,12 +18,50 @@ button {
   color:#f4f4f4;
 }
 
-#img.source-image {
+.profile-pic {
+  background-image: url('/assets/profile_user.jpg');
+  border-color: rgb(217, 84, 79);
+  border-style: solid;
+  border-width: 5px;
+  position: relative;
+  transform: rotate(-20deg);
+  top: -15px;
+  right: 7px;
+}
+
+#burst-8 {
+  background: rgb(217, 84, 79);
+  width: 80px;
+  height: 80px;
+  position: relative;
+  text-align: center;
+  transform: rotate(20deg);
+  border:rgb(217, 84, 79);
+  border-radius: 5px;
+  z-index: 15;
+  top: 50px;
+  left: 40px;
+}
+#burst-8:before {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background: rgb(217, 84, 79);
+  transform: rotate(135deg);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0 15px 15px 0;
+  border-color: transparent transparent rgb(217, 84, 79) transparent;
+  z-index: 13;
+}
+
+/* #img.source-image {
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
-}
+} */
 
 .green-color {
   color:green;
@@ -197,37 +235,14 @@ button {
   border-width: 2px;
 }
 
-#burst-8 {
-  background: rgb(217, 84, 79);
-  width: 80px;
-  height: 80px;
-  position: relative;
-  text-align: center;
-  transform: rotate(20deg);
-  border:rgb(217, 84, 79);
-  border-radius: 5px;
-}
-#burst-8:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 80px;
-  width: 80px;
-  background: rgb(217, 84, 79);
-  transform: rotate(135deg);
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 0 15px 15px 0;
-  border-color: transparent rgb(217, 84, 79) transparent transparent;
-}
+
 
 .top-position{
   z-index: 99;
 }
 
 .under-profile-pic{
-  z-index: 98;
+  z-index: 10;
 }
 
 
